@@ -1,151 +1,356 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-<!--HERE IS THE LINK TO THE PRETEXT GUIDE: https://pretextbook.org/doc/guide/html/guide-toc.html-->
+
   <docinfo>
-    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
-    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
-    <macros>\newcommand{\foo}{b^{ar}}</macros>
-    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+    <document-id>mlc-HOGUSession2</document-id>
+    <brandlogo source="Graphics/MLC_oneline_Horz_black_narrow.png" url="https://mlc.tamu.edu/"/>
+    <macros>
+      \newcommand{\D}{\displaystyle}
+    </macros>
   </docinfo>
 
-<article xml:id="session1wks" label="1234"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
-  <title>MATH # Hands-On, Grades Up</title>
-  <introduction>
-    <p>
-     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
-    </p>
-  </introduction>
-<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
-  <worksheet>
-    <title> Session #1 (Sections #-#)</title>
-    <p>
-      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
-    </p>
-    
-    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 1  %%%%%%%%%%%%%%%%%    -->
-      <title>Getting Warmed Up and in the Right Mindset</title>
+  <article xml:id="session2wks" label="4827">
+    <title>MATH 142 Hands-On, Grades Up</title>
 
-      <exercise workspace="1in"><!-- #1 -->
-        <statement>
-          <p>
-            Problem 1 
-          </p>
-        </statement>
-      </exercise>
+    <introduction>
+      <p>
+        For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+      </p>
+      <p>
+        The Math 142 textbook is free and can be downloaded as a PDF at
+        <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa">
+          Texas A&amp;M The OAKTrust Digital Repository
+        </url>.
+      </p>
+    </introduction>
 
-      <exercise workspace="1in"><!-- #2 -->
-        <statement>
-          <p>
-            Problem 2 
-          </p>
-        </statement>
-      </exercise>
+    <worksheet>
+      <title>Session #2</title>
 
-      <exercise workspace="1in"><!-- #3 -->
-        <statement>
-          <p>
-            Problem 3
-          </p>
-        </statement>
-      </exercise>
+      <p>
+        Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+      </p>
 
-    </paragraphs>
+      <!-- %%%%%%%%%%%%%%%% SECTION 1 %%%%%%%%%%%%%%%%% -->
 
-    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
-      <title>Let Us Get Our Hands On</title>
+      <paragraphs>
+        <title>Getting Warmed Up and in the Right Mindset</title>
 
-      <exercise workspace="1in" number="1"><!-- #1 -->
-        <statement>
-          <p>
-            Problem 1
-          </p>
-        </statement>
-      </exercise> 
-
-      <exercise workspace="1in" number="2"><!-- #2 -->
-        <introduction>
-          <p>
-            Problem 2 with multiple parts.
-          </p>
-        </introduction>
-        <task workspace="1in">
+        <exercise workspace="2in">
           <statement>
             <p>
-              Problem 2, part 1
+              Given
+              <m>\lim_{x\to\infty} f(x)=4</m>
+              and
+              <m>\lim_{x\to-\infty} f(x)=-2</m>,
+              what do you then know about any horizontal asymptotes of
+              <m>f(x)</m>?
             </p>
           </statement>
-        </task>
-        <task workspace="1in">
+        </exercise>
+
+        <exercise workspace="2in">
           <statement>
             <p>
-              Problem 2, part 2
+              Given the following information about <m>g(x)</m>, what do you know about the horizontal and vertical asymptotes?
             </p>
+
+            <md>
+\[
+\lim_{x\to\infty} g(x)\to\infty
+\qquad
+\lim_{x\to-\infty} g(x)\to\infty
+\]
+\[
+\lim_{x\to2^+} g(x)\to\infty
+\qquad
+\lim_{x\to2^-} g(x)\to-\infty
+\qquad
+\lim_{x\to5} g(x)\to\infty
+\]
+            </md>
           </statement>
-        </task>
-      </exercise>
-  
-      <exercise workspace="1in" number="3"><!-- #3 -->
-        <statement>
-          <p> 
-            Problem 3  
-          </p>
-        </statement>
-      </exercise> 
-  
-    </paragraphs>
+        </exercise>
 
-    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
-      <title>Now Grades Go Up</title>
+        <exercise workspace="3in">
+          <statement>
+            <p>
+              Determine each of the following limits.
+            </p>
 
-      <exercise workspace ="1in" number="1"><!-- #1 -->
-        <statement>
-          <p>
-            Problem 1
-          </p>
-        </statement>
-      </exercise>
+            <ol marker="(a)">
+              <li><p><m>\lim_{x\to\infty}\frac{1}{x}</m></p></li>
+              <li><p><m>\lim_{x\to-\infty}\frac{1}{x}</m></p></li>
+              <li><p><m>\lim_{x\to\infty}\frac{4}{x^3}</m></p></li>
+              <li><p><m>\lim_{x\to-\infty}e^x</m></p></li>
+              <li><p><m>\lim_{x\to\infty}e^{-x}</m></p></li>
+              <li><p><m>\lim_{x\to-\infty}e^{7x}</m></p></li>
+              <li><p><m>\lim_{x\to-\infty}5e^{-6x}</m></p></li>
+              <li><p><m>\lim_{x\to\infty}e^{8x}</m></p></li>
+              <li><p><m>\lim_{x\to-\infty}5e^{-6x}</m></p></li>
+            </ol>
+          </statement>
+        </exercise>
 
-      <exercise workspace ="1in" number="2"><!-- #2 -->
-        <statement>
-          <p>
-            Problem 2
-          </p>
-        </statement>
-      </exercise>
+        <exercise workspace="4in">
+          <statement>
+            <p>
+              Examine the limits above, group them together by finding patterns or common characteristics, then fill in the blanks below.
+            </p>
 
-      <exercise workspace ="1in" number="3"><!-- #3 -->
-        <statement>
-          <p>
-            Problem 3 with multiple choice
             <ol marker="(a)">
               <li>
                 <p>
-                  choice 1
+                  Given
+                  <m>f(x)=\frac{c}{x^n}</m>
+                  where <m>c</m> is any real number and <m>n&gt;0</m>, then
+                  <m>\lim_{x\to\infty}f(x)=0</m>
+                  and determine
+                  <m>\lim_{x\to-\infty}f(x)</m>.
                 </p>
               </li>
+
               <li>
                 <p>
-                  choice 2
+                  Given
+                  <m>g(x)=e^{nx}</m>
+                  where <m>n&gt;0</m>, then
+                  <m>\lim_{x\to\infty}g(x)\to\infty</m>
+                  and determine
+                  <m>\lim_{x\to-\infty}g(x)</m>.
                 </p>
               </li>
+
               <li>
                 <p>
-                  choice 3
-                </p>
-              </li>
-              <li>
-                <p>
-                  choice 4
+                  Given
+                  <m>h(x)=e^{-nx}</m>
+                  where <m>n&gt;0</m>, then
+                  <m>\lim_{x\to\infty}h(x)=0</m>
+                  and determine
+                  <m>\lim_{x\to-\infty}h(x)</m>.
                 </p>
               </li>
             </ol>
-          </p>
-        </statement>
-      </exercise>
+          </statement>
+        </exercise>
 
-    </paragraphs>
-  
-  </worksheet>
+      </paragraphs>
+
+      <!-- %%%%%%%%%%%%%%%% SECTION 2 %%%%%%%%%%%%%%%%% -->
+
+      <paragraphs>
+        <title>Let Us Get Our Hands On</title>
+
+        <exercise workspace="4in" number="1">
+          <introduction>
+            <p>
+              Find any (a) horizontal asymptotes, (b) the coordinates of any holes, and (c) vertical asymptotes of the function. If there are no horizontal asymptotes, describe the end behavior using limit notation.
+            </p>
+          </introduction>
+
+          <task workspace="1.5in">
+            <statement>
+              <p>
+                <m>
+                  h(x)=\frac{(x-4)(x+3)}{(x+4)(x-4)(8x+3)}
+                </m>
+              </p>
+            </statement>
+          </task>
+
+          <task workspace="1.5in">
+            <statement>
+              <p>
+                <m>
+                  f(x)=\frac{(3x+5)(x+2)}{4(x+2)^2}
+                </m>
+              </p>
+            </statement>
+          </task>
+
+          <task workspace="1.5in">
+            <statement>
+              <p>
+                <m>
+                  f(x)=\frac{x(x-5)(x+5)}{x^2+8x+15}
+                </m>
+              </p>
+            </statement>
+          </task>
+        </exercise>
+
+        <exercise workspace="4in" number="2">
+          <introduction>
+            <p>
+              Given
+              <m>f(x)=\frac{4-e^{-2x}}{3e^{-2x}+1}</m>,
+              follow the steps below to find the horizontal asymptotes of <m>f</m>.
+            </p>
+          </introduction>
+
+          <task workspace="1.5in">
+            <statement>
+              <p>
+                Set up but do not yet solve the two limits that are needed to determine the horizontal asymptotes.
+              </p>
+            </statement>
+          </task>
+
+          <task workspace="1.5in">
+            <statement>
+              <p>
+                Fill in the blanks with either <q>positive</q> or <q>negative</q>.
+              </p>
+
+              <ol marker="(i)">
+                <li>
+                  <p>
+                    If <m>x\to\infty</m>, we divide all terms by the <m>e^{nx}</m> in the denominator that has the most ______ power.
+                  </p>
+                </li>
+
+                <li>
+                  <p>
+                    If <m>x\to-\infty</m>, we divide all terms by the <m>e^{nx}</m> in the denominator that has the most ______ power.
+                  </p>
+                </li>
+              </ol>
+            </statement>
+          </task>
+
+          <task workspace="1.5in">
+            <statement>
+              <p>
+                Apply the techniques from part (b) to compute the limits in part (a) and state the horizontal asymptotes of <m>f</m>.
+              </p>
+            </statement>
+          </task>
+        </exercise>
+
+        <exercise workspace="3in" number="3">
+          <statement>
+            <p>
+              A function <m>f</m> is <em>continuous at a point</em> where <m>x=c</m> if and only if the following three conditions are satisfied:
+            </p>
+
+            <ol marker="I.">
+              <li><p>______ is defined.</p></li>
+              <li><p><m>\lim_{x\to c}f(x)</m> exists.</p></li>
+              <li><p><m>\lim_{x\to c}f(x)=</m> ______.</p></li>
+            </ol>
+          </statement>
+        </exercise>
+
+        <exercise workspace="2in" number="4">
+          <statement>
+            <p>
+              If you know
+              <m>\lim_{x\to2}g(x)=4</m>
+              and
+              <m>g(2)=7</m>,
+              can you correctly conclude that <m>g(x)</m> is continuous at <m>x=2</m>? Why or why not?
+            </p>
+          </statement>
+        </exercise>
+
+      </paragraphs>
+
+      <!-- %%%%%%%%%%%%%%%% SECTION 3 %%%%%%%%%%%%%%%%% -->
+
+      <paragraphs>
+        <title>Now Grades Go Up</title>
+
+        <exercise workspace="2in" number="1">
+          <statement>
+            <p>
+              The graph of <m>f(x)</m> is not continuous at <m>x=2</m> because:
+            </p>
+
+            <ol marker="I.">
+              <li><p><m>f(2)</m> is not defined.</p></li>
+              <li><p><m>\lim_{x\to2}f(x)</m> does not exist.</p></li>
+              <li><p><m>f(2)\ne\lim_{x\to2}f(x)</m>.</p></li>
+            </ol>
+
+            <ol marker="(a)">
+              <li><p>I and III only</p></li>
+              <li><p>III only</p></li>
+              <li><p>II and III only</p></li>
+              <li><p>I, II, and III</p></li>
+              <li><p>II only</p></li>
+            </ol>
+          </statement>
+        </exercise>
+
+        <exercise workspace="2in" number="2">
+          <statement>
+            <p>
+              Which of the following is true regarding the horizontal asymptotes for
+              <m>
+                g(x)=\frac{3e^{3x}-5}{7e^{2x}+8}
+              </m>?
+            </p>
+
+            <ol marker="(a)">
+              <li><p><m>g(x)</m> does not have any horizontal asymptotes.</p></li>
+
+              <li>
+                <p>
+                  <m>g(x)</m> has two horizontal asymptotes; one at
+                  <m>y=\frac{3}{7}</m>
+                  and another at
+                  <m>y=-\frac{5}{8}</m>.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <m>g(x)</m> has only one horizontal asymptote at
+                  <m>y=\frac{3}{7}</m>.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <m>g(x)</m> has only one horizontal asymptote at
+                  <m>y=-\frac{5}{8}</m>.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  <m>g(x)</m> has two horizontal asymptotes; one at
+                  <m>y=0</m>
+                  and another at
+                  <m>y=\frac{3}{7}</m>.
+                </p>
+              </li>
+            </ol>
+          </statement>
+        </exercise>
+
+        <exercise workspace="2in" number="3">
+          <statement>
+            <p>
+              Suppose for some function <m>g(x)</m>, you know
+              <m>\lim_{x\to3^-}g(x)\to-\infty</m>.
+              What can you conclude happens at <m>x=3</m>?
+            </p>
+
+            <ol marker="(a)">
+              <li><p><m>g(x)</m> has a vertical asymptote at <m>x=3</m>.</p></li>
+              <li><p><m>g(x)</m> has a horizontal asymptote at <m>x=3</m>.</p></li>
+              <li><p><m>\lim_{x\to-\infty}g(x)=-3</m>.</p></li>
+              <li><p><m>g(x)</m> has a hole at <m>x=3</m>.</p></li>
+              <li><p><m>g(3)=\infty</m>.</p></li>
+            </ol>
+          </statement>
+        </exercise>
+
+      </paragraphs>
+
+    </worksheet>
 
   </article>
 
